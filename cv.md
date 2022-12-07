@@ -57,3 +57,6 @@ function hasChar(word, letter) {
   - [**Codebase**](https://github.com/tuvir/html-css-lang/tree/main/08-site-optimization)
 
 ## Languages
+
+- **English:** B1 (tested with EPAM app)
+- **Russian:** native
