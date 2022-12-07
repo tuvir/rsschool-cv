@@ -27,6 +27,20 @@ I'm a fourth-year college student. I'm interested in front-end development becau
 - JavaScript
 - Git, GItHub, GitLab
 
+_Code example:_
+
+```
+function hasChar(word, letter) {
+  let result = false;
+  for(let i = 0; i < word.length; i++) {
+    if(word[i] === letter) {
+      result = true;
+    }
+  }
+  return result;
+}
+```
+
 ## Education
 
 ## Work experience
