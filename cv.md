@@ -18,7 +18,14 @@
 
 ## About me
 
+I'm a fourth-year college student. I'm interested in front-end development because allows me to use my artistic vision and passion for programming at the same time. I like to build my own projects and study new techniques on the go. Being a developer means to continously learn new things and I like to learn very much!
+
 ## Skills
+
+- HTML5, CSS3
+- Responsive design
+- JavaScript
+- Git, GItHub, GitLab
 
 ## Education
 
