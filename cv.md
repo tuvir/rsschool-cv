@@ -43,9 +43,9 @@ function hasChar(word, letter) {
 
 ## Education
 
-[HTML/CSS course](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)  
-[JavaScript course](https://www.udemy.com/course/the-complete-javascript-course/) (in progress)  
-School 21
+- [HTML/CSS course](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+- [JavaScript course](https://www.udemy.com/course/the-complete-javascript-course/) (in progress)
+- School 21
 
 ## Work experience
 
