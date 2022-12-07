@@ -11,13 +11,10 @@
 
 ## Contacts
 
-_Phone:_ +79963207147
-
-_E-mail:_ p.kulikov.dev@gmail.com
-
-_Telegram:_ @emdnauoy
-
-_RS School Discord:_ Petr Kulikov(@tuvir)
+- _Phone:_ +79963207147
+- _E-mail:_ p.kulikov.dev@gmail.com
+- _Telegram:_ @emdnauoy
+- _RS School Discord:_ Petr Kulikov(@tuvir)
 
 ## About me
 
