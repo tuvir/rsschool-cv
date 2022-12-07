@@ -49,4 +49,11 @@ function hasChar(word, letter) {
 
 ## Work experience
 
+**My projects:**
+
+- [Food-delivery app landing](https://omnifood-tuvir.netlify.app)
+  - Built using HTML5, CSS3, JSES6
+  - Fully responsive design, with 'flex' and 'grid'
+  - **[Codebase]**(https://github.com/tuvir/html-css-lang/tree/main/08-site-optimization)
+
 ## Languages
