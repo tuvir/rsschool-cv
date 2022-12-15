@@ -51,6 +51,18 @@ html {
   margin-bottom: 2.4rem;
 }
 
+.link-basic:link,
+.link-basic:visited {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.link-basic:hover,
+.link-basic:active {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
 /* HEADER */
 
 .page-header {
