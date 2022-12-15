@@ -21,6 +21,7 @@ html {
   --accent-color: #3bc9db;
   --bg-color: #343a40;
   --font-color: #fff;
+  --section-margin: 6.4rem;
 }
 
 .wrapper {
@@ -63,6 +64,15 @@ html {
   color: var(--font-color);
 }
 
+.btn {
+  border: solid 2px var(--accent-color);
+  padding: 1.2rem 2.4rem;
+  border-radius: 2rem;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-size: 1.8rem;
+}
+
 /* HEADER */
 
 .page-header {
@@ -99,7 +109,7 @@ html {
 /* ABOUT ME: INTRO */
 
 .section-about-me {
-  margin-bottom: 6.4rem;
+  margin-bottom: var(--section-margin);
 }
 
 .about-me-intro {
@@ -150,7 +160,7 @@ html {
 /* SKILLS  */
 
 .section-skills {
-  margin-bottom: 6.4rem;
+  margin-bottom: var(--section-margin);
 }
 
 .skills-list-container {
@@ -194,6 +204,44 @@ html {
   background-color: #237983;
   padding: 2.4rem;
   border-radius: 2rem;
+}
+
+/* PROJECTS */
+
+.section-projects {
+  margin-bottom: var(--section-margin);
+}
+
+.project-card {
+  margin-left: 4.8rem;
+  display: inline-block;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 4.8rem;
+  border-radius: 2rem;
+  background-color: rgb(35, 121, 131, 0.1);
+}
+
+.project-info {
+  width: 65%;
+  margin-bottom: 2.4rem;
+}
+
+.project-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--accent-color);
+}
+
+.project-overview {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.project-btn {
+  margin-right: 2.4rem;
 }
 /*
 FONT SIZE SYSTEM (px)
