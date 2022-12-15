@@ -1,0 +1,81 @@
+/* GLOBAL CONFIGS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--font-color);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --accent-color: #3bc9db;
+  --bg-color: #343a40;
+  --font-color: #fff;
+}
+
+.wrapper {
+  background-color: var(--bg-color);
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto 6.8rem;
+}
+
+.section-container {
+  display: flex;
+}
+
+/* HEADER */
+
+.header-nav {
+  padding: 1.2rem;
+}
+
+.section-list {
+  display: flex;
+  justify-content: end;
+  gap: 4.8rem;
+}
+
+.section-item {
+  list-style: none;
+}
+
+.section-link {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.section-link:link,
+.section-link:visited {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.section-link:hover,
+.section-link:after {
+  color: var(--font-color);
+}
+
+/* ABOUT ME: INTRO */
+
+/*
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

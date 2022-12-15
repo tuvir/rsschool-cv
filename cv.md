@@ -5,7 +5,7 @@
 - **Phone:** +79963207147
 - **E-mail:** p.kulikov.dev@gmail.com
 - **Telegram:** @emdnauoy
-- **RS School Discord:** Petr Kulikov(@tuvir)
+- **RS Discord:** Petr Kulikov(@tuvir)
 
 ## About me
 
