@@ -40,6 +40,17 @@ html {
   column-gap: 2.4rem;
 }
 
+.subheading {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 1.2rem;
+}
+
+.section-heading {
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+
 /* HEADER */
 
 .page-header {
@@ -128,17 +139,6 @@ html {
 
 .section-skills {
   margin-bottom: 6.4rem;
-}
-
-.subheading {
-  font-size: 2rem;
-  color: var(--accent-color);
-  margin-bottom: 1.2rem;
-}
-
-.section-heading {
-  font-size: 3.6rem;
-  margin-bottom: 2.4rem;
 }
 
 .skills-list-container {
