@@ -1,0 +1,30 @@
+/* GLOBAL CONFIGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --accent-color: #3bc9db;
+  --bg-color: #343a40;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  margin: auto 6.8rem;
+}
