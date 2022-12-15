@@ -34,7 +34,8 @@ html {
 }
 
 .section-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* HEADER */
@@ -50,11 +51,8 @@ html {
 .section-list {
   display: flex;
   justify-content: end;
-  gap: 4.8rem;
-}
-
-.section-item {
   list-style: none;
+  gap: 4.8rem;
 }
 
 .section-link {
@@ -100,6 +98,13 @@ html {
 
 .text-highlight {
   color: var(--accent-color);
+}
+
+/* ABOUT ME: CONTACTS AND SUMMARY */
+.contacts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 /*
 FONT SIZE SYSTEM (px)
