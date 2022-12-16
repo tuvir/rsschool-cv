@@ -75,6 +75,11 @@ html {
   transition: all 0.3s;
 }
 
+.flex-list {
+  list-style: none;
+  display: flex;
+}
+
 /* HEADER */
 
 .page-header {
@@ -86,9 +91,7 @@ html {
 }
 
 .section-list {
-  display: flex;
   justify-content: end;
-  list-style: none;
   gap: 4.8rem;
 }
 
@@ -132,8 +135,6 @@ html {
 
 /* ABOUT ME: CONTACTS AND SUMMARY */
 .contacts-list {
-  list-style: none;
-  display: flex;
   flex-direction: column;
   gap: 2.4rem;
   font-size: 2.4rem;
@@ -167,8 +168,6 @@ html {
 }
 
 .skills-list {
-  display: flex;
-  list-style: none;
   justify-content: space-between;
 }
 
@@ -249,8 +248,6 @@ html {
 }
 
 .edu-list {
-  display: flex;
-  list-style: none;
   gap: 4.8rem;
   justify-content: center;
 }
@@ -266,8 +263,6 @@ html {
 }
 
 .languages-list {
-  list-style: none;
-  display: flex;
   gap: 4.8rem;
   justify-content: center;
 }
@@ -277,6 +272,15 @@ html {
 }
 
 /* FOOTER */
+
+.page-footer {
+  padding: 3.2rem 0;
+}
+
+.footer-list {
+  gap: 6rem;
+  justify-content: center;
+}
 
 /*
 FONT SIZE SYSTEM (px)

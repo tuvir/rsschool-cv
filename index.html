@@ -18,7 +18,7 @@
       <div class="page-container">
         <header class="page-header">
           <nav class="header-nav">
-            <ul class="section-list">
+            <ul class="flex-list section-list">
               <li class="section-item">
                 <a class="link-basic section-link" href="#skills">Skills</a>
               </li>
@@ -26,10 +26,14 @@
                 <a class="link-basic section-link" href="#projects">Projects</a>
               </li>
               <li class="section-item">
-                <a class="link-basic section-link" href="#education">Education</a>
+                <a class="link-basic section-link" href="#education"
+                  >Education</a
+                >
               </li>
               <li class="section-item">
-                <a class="link-basic section-link" href="#languages">Languages</a>
+                <a class="link-basic section-link" href="#languages"
+                  >Languages</a
+                >
               </li>
             </ul>
           </nav>
@@ -50,7 +54,7 @@
               </h1>
             </div>
             <div class="section-container">
-              <ul class="contacts-list">
+              <ul class="flex-list contacts-list">
                 <li class="contacts-item">
                   <b class="contacts-type">Phone:</b> +79963207147
                 </li>
@@ -78,7 +82,7 @@
             <p class="subheading">.i-use</p>
             <h2 class="section-heading">Skills</h2>
             <div class="skills-list-container">
-              <ul class="skills-list">
+              <ul class="flex-list skills-list">
                 <li class="skills-item">JavaScript</li>
                 <li class="skills-item">HTML, CSS</li>
                 <li class="skills-item">Responsive design</li>
@@ -96,15 +100,18 @@ function hasChar(word, letter) {
     } 
   }
   return result; 
-}              </pre>
+}              </pre
+              >
             </code>
-          </section>
           </section>
           <section id="projects" class="section-projects">
             <p class="subheading">.i-made</p>
             <h2 class="section-heading">Projects</h2>
             <article class="project-card">
-              <a class="link-basic project-link" href="https://omnifood-tuvir.netlify.app">
+              <a
+                class="link-basic project-link"
+                href="https://omnifood-tuvir.netlify.app"
+              >
                 <div class="project-info">
                   <h3 class="project-title">Food-delivery app landing</h3>
                   <p class="project-overview">
@@ -120,15 +127,17 @@ function hasChar(word, letter) {
           <section id="education" class="section-education">
             <p class="subheading">.i-studied</p>
             <h2 class="section-heading">Courses</h2>
-            <ul class="edu-list">
+            <ul class="flex-list edu-list">
               <li class="edu-item">
-                <a class="link-basic"
+                <a
+                  class="link-basic"
                   href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
                   >HTML/CSS course</a
                 >
               </li>
               <li class="edu-item">
-                <a class="link-basic"
+                <a
+                  class="link-basic"
                   href="https://www.udemy.com/course/the-complete-javascript-course/"
                   >JavaScript course</a
                 >
@@ -139,31 +148,54 @@ function hasChar(word, letter) {
           <section id="languages" class="section-languages">
             <p class="subheading">.i-speak</p>
             <h2 class="section-heading">Languages</h2>
-            <ul class="languages-list">
+            <ul class="flex-list languages-list">
               <li class="languages-item">
                 <p class="language">
                   <span class="text-highlight">English:</span>
                   Intermediate (B1)
-                </p>             
+                </p>
               </li>
               <li class="languages-item">
-              <p class="language">
-                <span class="text-highlight">Russian:</span>
-                Native
-              </p>
+                <p class="language">
+                  <span class="text-highlight">Russian:</span>
+                  Native
+                </p>
               </li>
             </ul>
           </section>
         </main>
         <footer class="page-footer">
-          <ul class="footer-list">
-            <li class="footer-item">My github</li>
+          <ul class="flex-list footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="">
+                <ion-icon class="footer-icon" name="logo-github"></ion-icon>
+              </a>
+            </li>
             <li class="footer-item">2022</li>
-            <li class="footer-item">Rs School</li>
-            <li class="footer-item">Linked in</li>
+            <li class="footer-item">
+              <a class="footer-link" href=""
+                ><img
+                  src="images/output-onlinepngtools.webp"
+                  alt="RS School logo"
+                  height="30"
+              /></a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">
+                <ion-icon class="footer-icon" name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
           </ul>
         </footer>
       </div>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
