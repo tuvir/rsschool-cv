@@ -71,6 +71,7 @@ html {
   background-color: var(--bg-color);
   color: var(--font-color);
   font-size: 1.8rem;
+  transition: all 0.3s;
 }
 
 /* HEADER */
@@ -242,6 +243,13 @@ html {
 
 .project-btn {
   margin-right: 2.4rem;
+}
+
+.project-btn:hover,
+.project-btn:active {
+  cursor: pointer;
+  background-color: #237983;
+  transition: all 0.3s;
 }
 /*
 FONT SIZE SYSTEM (px)
