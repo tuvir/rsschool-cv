@@ -2,4 +2,4 @@
 
 https://tuvir.github.io/rsschool-cv/cv
 
-https://tuvir.github.io/rsschool-cv/index.html
+https://tuvir.github.io/rsschool-cv/index
