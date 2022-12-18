@@ -216,11 +216,21 @@ html {
   display: inline-block;
 }
 
+.project-list {
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
 .project-link {
   display: inline-block;
   padding: 4.8rem;
   border-radius: 2rem;
   background-color: rgb(35, 121, 131, 0.1);
+}
+
+.project-link:hover,
+.project-link:active {
+  color: inherit;
 }
 
 .project-info {
@@ -236,11 +246,15 @@ html {
 
 .project-overview {
   font-size: 2rem;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 .project-btn {
   margin-right: 2.4rem;
+}
+
+.project-recsource {
+  display: inline-block;
 }
 
 .project-btn:hover,

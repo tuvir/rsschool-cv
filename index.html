@@ -123,23 +123,64 @@ function hasChar(word, letter) {
           <section id="projects" class="section-projects">
             <p class="subheading">.i-made</p>
             <h2 class="section-heading">Projects</h2>
-            <article class="project-card">
-              <a
-                target="_blank"
-                class="link-basic project-link"
-                href="https://omnifood-tuvir.netlify.app"
-              >
-                <div class="project-info">
-                  <h3 class="project-title">Food-delivery app landing</h3>
-                  <p class="project-overview">
-                    Built using HTML5, CSS3, JSES6. Fully responsive design,
-                    with 'flex' and 'grid'.
-                  </p>
-                </div>
-                <button class="btn project-btn">Take a look</button>
-                <button class="btn project-btn">Codebase</button>
-              </a>
-            </article>
+            <ul class="flex-list project-list">
+              <li class="project-item">
+                <article class="project-card">
+                  <a
+                    target="_blank"
+                    class="link-basic project-link"
+                    href="https://guessing-game-tuvir.netlify.app/"
+                  >
+                    <div class="project-info">
+                      <h3 class="project-title">Number guessing game</h3>
+                      <p class="project-overview">
+                        Guess the random number to win. Editable range of the
+                        secret number and multiple game scenarios. Built using
+                        JS, HTML and CSS.
+                      </p>
+                    </div>
+                    <button
+                      onclick="location.href='https://guessing-game-tuvir.netlify.app/';"
+                      class="btn project-btn"
+                      type="button"
+                    >
+                      Take a look
+                    </button>
+                    <button
+                      onclick="location.href='https://github.com/tuvir/guessing-game';"
+                      class="btn project-btn"
+                      type="button"
+                    >
+                      Codebase
+                    </button>
+                  </a>
+                </article>
+              </li>
+              <li class="project-item">
+                <article class="project-card">
+                  <a
+                    target="_blank"
+                    class="link-basic project-link"
+                    href="https://omnifood-tuvir.netlify.app"
+                  >
+                    <div class="project-info">
+                      <h3 class="project-title">Food-delivery app landing</h3>
+                      <p class="project-overview">
+                        Built using HTML5, CSS3, JSES6. Fully responsive design,
+                        with 'flex' and 'grid'.
+                      </p>
+                    </div>
+                    <button
+                      onclick="location.href='https://omnifood-tuvir.netlify.app';"
+                      class="btn project-btn"
+                      type="button"
+                    >
+                      Take a look
+                    </button>
+                  </a>
+                </article>
+              </li>
+            </ul>
           </section>
           <section id="education" class="section-education">
             <p class="subheading">.i-studied</p>
