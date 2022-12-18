@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Petr Kulikov CV</title>
+  </head>
+  <body class="page-body">
+    <div class="wrapper">
+      <div class="page-container">
+        <header class="page-header">
+          <nav class="header-nav">
+            <ul class="flex-list section-list">
+              <li class="section-item">
+                <a
+                  target="_blank"
+                  class="link-basic section-link"
+                  href="#skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="section-item">
+                <a
+                  target="_blank"
+                  class="link-basic section-link"
+                  href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="section-item">
+                <a
+                  target="_blank"
+                  class="link-basic section-link"
+                  href="#education"
+                  >Education</a
+                >
+              </li>
+              <li class="section-item">
+                <a
+                  target="_blank"
+                  class="link-basic section-link"
+                  href="#languages"
+                  >Languages</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main class="page-main">
+          <section class="section-about-me">
+            <div class="about-me-intro">
+              <img
+                class="my-image"
+                src="images/20220922_100716.webp"
+                alt="Photo of Petr Kulikov"
+                width="280"
+                height="280"
+              />
+              <p class="my-name">Petr Kulikov</p>
+              <h1 class="my-job">
+                <span class="text-highlight">Front-End</span> Developer
+              </h1>
+            </div>
+            <div class="section-container">
+              <ul class="flex-list contacts-list">
+                <li class="contacts-item">
+                  <b class="contacts-type">Phone:</b> +79963207147
+                </li>
+                <li class="contacts-item">
+                  <b class="contacts-type">E-mail:</b> p.kulikov.dev@gmail.com
+                </li>
+                <li class="contacts-item">
+                  <b class="contacts-type">Telegram:</b> @emdnauoy
+                </li>
+                <li class="contacts-item">
+                  <b class="contacts-type">RS Discord:</b> Petr Kulikov(tuvir)
+                </li>
+              </ul>
+              <p class="about-me">
+                I'm a fourth-year college student. I'm interested in front-end
+                development because it allows me to use my artistic vision and
+                passion for programming at the same time. I like to build my own
+                projects and study new techniques on the go. Being a developer
+                means to continously learn new things and I like to learn very
+                much!
+              </p>
+            </div>
+          </section>
+          <section id="skills" class="section-skills">
+            <p class="subheading">.i-know</p>
+            <h2 class="section-heading">Skills</h2>
+            <div class="skills-list-container">
+              <ul class="flex-list skills-list">
+                <li class="skills-item">JavaScript</li>
+                <li class="skills-item">HTML, CSS</li>
+                <li class="skills-item">Responsive design</li>
+                <li class="skills-item">Git, GitHub</li>
+              </ul>
+            </div>
+            <h2 class="code-heading">Code example</h2>
+            <code class="skills-code">
+              <pre class="code-block">
+function hasChar(word, letter) { 
+  let result = false; 
+  for(let i = 0; i < word.length; i++) {
+     if(word[i] === letter) { 
+      result = true; 
+    } 
+  }
+  return result; 
+}              </pre
+              >
+            </code>
+          </section>
+          <section id="projects" class="section-projects">
+            <p class="subheading">.i-made</p>
+            <h2 class="section-heading">Projects</h2>
+            <ul class="flex-list project-list">
+              <li class="project-item">
+                <article class="project-card">
+                  <div class="project-container">
+                    <div class="project-info">
+                      <h3 class="project-title">Number guessing game</h3>
+                      <p class="project-overview">
+                        Interactive interface and different win/lose scenarios.
+                        Game logic and interface manipulation made with JS.
+                      </p>
+                    </div>
+                    <a
+                      href="https://guessing-game-tuvir.netlify.app/"
+                      target="_blank"
+                      class="btn project-link"
+                      >Take a look</a
+                    >
+                    <a
+                      href="https://github.com/tuvir/guessing-game"
+                      target="_blank"
+                      class="btn project-link"
+                      >Codebase</a
+                    >
+                  </div>
+                </article>
+              </li>
+              <li class="project-item">
+                <article class="project-card">
+                  <div class="project-container">
+                    <div class="project-info">
+                      <h3 class="project-title">Food-delivery app landing</h3>
+                      <p class="project-overview">
+                        Built using HTML5 and CSS3, a little JS. Fully
+                        responsive design, with 'flex' and 'grid'.
+                      </p>
+                    </div>
+                    <a
+                      href="https://omnifood-tuvir.netlify.app/"
+                      target="_blank"
+                      class="btn project-link"
+                      >Take a look</a
+                    >
+                    <a href="" target="_blank" class="btn project-link"
+                      >Codebase</a
+                    >
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </section>
+          <section id="education" class="section-education">
+            <p class="subheading">.i-studied</p>
+            <h2 class="section-heading">Courses</h2>
+            <ul class="flex-list edu-list">
+              <li class="edu-item">
+                <a
+                  target="_blank"
+                  class="link-basic"
+                  href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                  >HTML/CSS course</a
+                >
+              </li>
+              <li class="edu-item">
+                <a
+                  target="_blank"
+                  class="link-basic"
+                  href="https://www.udemy.com/course/the-complete-javascript-course/"
+                  >JavaScript course</a
+                >
+                (in progress)
+              </li>
+            </ul>
+          </section>
+          <section id="languages" class="section-languages">
+            <p class="subheading">.i-speak</p>
+            <h2 class="section-heading">Languages</h2>
+            <ul class="flex-list languages-list">
+              <li class="languages-item">
+                <p class="language">
+                  <span class="text-highlight">English:</span>
+                  Intermediate (B1)
+                </p>
+              </li>
+              <li class="languages-item">
+                <p class="language">
+                  <span class="text-highlight">Russian:</span>
+                  Native
+                </p>
+              </li>
+            </ul>
+          </section>
+        </main>
+        <footer class="page-footer">
+          <ul class="flex-list footer-list">
+            <li class="footer-item">
+              <a
+                target="_blank"
+                class="link-basic footer-link"
+                href="https://github.com/tuvir"
+              >
+                <ion-icon class="footer-icon" name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li class="footer-item footer-year">2022</li>
+            <li class="footer-item">
+              <a
+                target="_blank"
+                class="link-basic footer-link"
+                href="https://rs.school/js-stage0/"
+                ><img
+                  src="images/output-onlinepngtools.webp"
+                  alt="RS School logo"
+                  height="40"
+              /></a>
+            </li>
+            <li class="footer-item">
+              <a target="_blank" class="link-basic footer-link" href="">
+                <ion-icon class="footer-icon" name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
