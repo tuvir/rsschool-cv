@@ -192,7 +192,7 @@ html {
   margin-bottom: 2.4rem;
 }
 
-.skills-code {
+.code-container {
   display: flex;
   justify-content: center;
 }
