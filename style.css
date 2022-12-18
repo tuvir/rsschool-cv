@@ -213,28 +213,22 @@ html {
 
 .project-card {
   margin-left: 4.8rem;
-  display: inline-block;
 }
 
 .project-list {
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 4.8rem;
 }
 
-.project-link {
-  display: inline-block;
+.project-container {
+  width: 60%;
   padding: 4.8rem;
   border-radius: 2rem;
   background-color: rgb(35, 121, 131, 0.1);
 }
 
-.project-link:hover,
-.project-link:active {
-  color: inherit;
-}
-
 .project-info {
-  width: 65%;
+  width: 80%;
   margin-bottom: 2.4rem;
 }
 
@@ -257,11 +251,22 @@ html {
   display: inline-block;
 }
 
-.project-btn:hover,
-.project-btn:active {
+.project-link {
+  display: inline-block;
+  margin-right: 2.4rem;
+}
+
+.project-link:link,
+.project-link:visited {
+  text-decoration: none;
+}
+
+.project-link:hover,
+.project-link:active {
   cursor: pointer;
   background-color: #237983;
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 /* EDUCATION */
